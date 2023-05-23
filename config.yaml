@@ -3,10 +3,9 @@ languageCode: 'en-us'
 title: 'Sociology J'
 
 
-
-
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
   BookTheme: "auto"
-  BookMenuBundle: /menu
+  BookMenuBundle: "/menu"
+  BookLogo: "booklogo.png"

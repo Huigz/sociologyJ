@@ -20,27 +20,26 @@ DOI: 10.1007/s11606-015-3380-9
 
 ## 배경
 
-현존 Sampling frames의 다당성은 샘플 의사 조사의 대표성과 편차에 영향을 미친다.
+현존 **Sampling frames의 다당성**은 샘플 의사 **조사의 대표성**과 편차에 영향을 미친다.
 
-problem:
-
-- 도달범위 부족 (Under coverage) or
-- Over coverage [퇴직 의사 포함됨..]
-- 오류 정보 Error information … 중복정보 Duplicate information …
+Problems 가능 존재할 문제:
+- Under coverage (도달범위 부족)  or
+- Over coverage (과도 포함) [퇴직 의사 포함됨..] or
+- Error information (오류 정보) … 중복정보 Duplicate information …
 
 ### 기관 배경
 
     NPPES:
 
-    - 요금 청구서 계산 -> 주소 Update 동기 있음
+    - 요금 청구서 계산 -> 주소 Update (User동기 있음) 
 
     CMS:
 
-    - 주소 변경 요구 -> 실행력 없음
+    - 주소 변경 요구(User에게) -> 실행력 없음(User동기 없음)
 
     AMA:
 
-    - 기관은 의사 정보 Update노력 -> 의사 자체 정보 갱신 의도(필요)없음
+    - 기관은 의사 정보 Update노력 -> 의사 자체(User 정보 갱신 의도(필요)없음)
 
     SK&A:
 
@@ -115,3 +114,12 @@ NPPES FILE에서 의사 데이터 뽑아서 6가지의 과의 의사으로 제�
         - extra information 상대적 부족
             
             - 다른 DB와 연합사용
+
+
+## Comment By me
+{{<hint info>}}
+Sampling의 과정뿐만 아니라 Sampling Frame의 특성도 고려해서 Sampling Frame(Database)갖고 있는 데이터의 편향 있는지? 데이터의 소스(Source)무엇인지?
+에 대한 연구는 사회조사에 큰 도움이 될 수 있다고 생각한다. 
+
+Sample Frame의 데이터 특성 연구는 조사의 정확성을 제고하느라 조사 과정에 데이터 검증,오류인해 낭비된 시간도 많이 줄릴 수 있다.    
+{{</hint>}}
