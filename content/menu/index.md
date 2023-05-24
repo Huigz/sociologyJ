@@ -6,4 +6,4 @@ headless: true
   - [Non-Response]({{< relref "/methodology/non-response" >}})
   - [Sampling Frame]({{< relref "/methodology/sampling" >}})
 - [**classical sociology theories**]({{< relref "/classicalST">}})
-  - [Durkheim]()
+  - [Durkheim]({{< relref "/classicalST">}})
