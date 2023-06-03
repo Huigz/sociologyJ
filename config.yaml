@@ -1,8 +1,8 @@
-baseURL: 'http://sociology.jmsu.me/'
+baseURL: '/'
 languageCode: 'en-us'
 title: 'Sociology J'
 
-theme: 'hugo-book'
+theme: ['hugo-embed-pdf-shortcode', 'hugo-book']
 
 
 
