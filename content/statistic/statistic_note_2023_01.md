@@ -5,4 +5,15 @@ description: 2023-01学期 김상옥 교수님<기초중급통계학>수업의 �
 draft: false
 ---
 
-{{< embed-pdf url="/pdfs/2023_1_StatisticFinalTerm_Note[v1].pdf">}}
+# 기초중급통계학 노트 基础中级统计学
+
+
+{{< embed-pdf url="/pdfs/2023_1_StatisticFinalTerm_Note[v1.1].pdf">}}
+
+***
+##### Version Line
+
+1.1 [增加] MSB/MSW 组间，组内均方的韩文翻译
+
+1.0 [上传发布] 
+ 
