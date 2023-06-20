@@ -2,7 +2,7 @@
 title: "[Just For Fun 😄]收入影响对社会的信任？ Simple Linear Regression"
 date: 2023-06-19T00:06:11+09:00
 description: 用单变量线性回归对KGSS 2021年的调查数据中 收入 与 社会信任 两个变量间的线性关系进行分析
-draft: false
+draft: true
 ---
 
 # 收入影响对社会的信任？ Simple Linear Regression 
