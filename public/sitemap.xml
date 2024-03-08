@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://sociology.jmsu.me/categories/</loc>
-  </url><url>
-    <loc>http://sociology.jmsu.me/methodology/</loc>
-  </url><url>
-    <loc>http://sociology.jmsu.me/methodology/non-response/</loc>
-  </url><url>
-    <loc>http://sociology.jmsu.me/methodology/sampling/3national_physician_sampling_frames/</loc>
-  </url><url>
-    <loc>http://sociology.jmsu.me/methodology/sampling/</loc>
-  </url><url>
-    <loc>http://sociology.jmsu.me/tags/</loc>
-  </url><url>
-    <loc>http://sociology.jmsu.me/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>//localhost:1313/kr/sitemap.xml</loc>
+    
+      <lastmod>2023-06-19T00:06:11+09:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>//localhost:1313/cn/sitemap.xml</loc>
+    
+      <lastmod>2023-06-19T00:06:11+09:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>

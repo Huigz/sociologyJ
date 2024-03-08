@@ -1,8 +1,9 @@
 baseURL: '/'
-languageCode: 'en-us'
+#languageCode: 'en-us'
 title: 'Sociology J'
 
-theme: ['hugo-embed-pdf-shortcode', 'hugo-book']
+theme: ['hugo-book', 'hugo-embed-pdf-shortcode']
+
 
 
 
@@ -12,3 +13,28 @@ params:
   BookTheme: "auto"
   BookMenuBundle: "/menu"
   BookLogo: "booklogo.png"
+
+
+defaultContentLanguage: kr
+defaultContentLanguageInSubdir: true
+languages:
+  cn:
+    contentDir: content/cn
+    disabled: false
+    languageCode: zh-CN
+    languageDirection: ltr
+    languageName: Chinese
+    params:
+      subtitle: 社会学知识
+    title: Sociology J
+    weight: 1
+  kr:
+    contentDir: content/kr
+    disabled: false
+    languageCode: ko-KR
+    languageDirection: ltr
+    languageName: Korean
+    params:
+      subtitle: Knowledge of Sociology
+    title: Sociology J
+    weight: 2

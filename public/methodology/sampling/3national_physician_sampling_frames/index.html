@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="논문 정보 DesRoches, Catherine M., Kirsten A. Barrett, Bonnie E. Harvey, Rachel Kogan, James D. Reschovsky, Bruce E. Landon, Lawrence P. Casalino, Stephen M. Shortell, and Eugene C. Rich. &ldquo;The results are only as good as the sample: assessing three national physician sampling frames.&rdquo; Journal of general internal medicine 30 (2015): 595-601
@@ -10,14 +10,15 @@ DOI: 10.1007/s11606-015-3380-9
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Results only as good as the sample" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://sociology.jmsu.me/methodology/sampling/3national_physician_sampling_frames/" />
+<meta property="og:url" content="//localhost:1313/methodology/sampling/3national_physician_sampling_frames/" />
+
 <title>Results only as good as the sample | Sociology J</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/book.min.f8de3645fe00591b41524aee174e19edd98a22255a2930a0cdc82a94835ba387.css" integrity="sha256-&#43;N42Rf4AWRtBUkruF04Z7dmKIiVaKTCgzcgqlINbo4c=" crossorigin="anonymous">
+<link rel="stylesheet" href="/book.min.553ea4958b0ed0077acd811efa58ebe2703974f323d95fcb2afda09496b40ae6.css" integrity="sha256-VT6klYsO0Ad6zYEe&#43;ljr4nA5dPMj2V/LKv2glJa0CuY=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.c57bcfb2bfe3778f6b0d7ec6ad55e20bd614a24be5bf4995e4923128a37f68be.js" integrity="sha256-xXvPsr/jd49rDX7GrVXiC9YUokvlv0mV5JIxKKN/aL4=" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" href="http://sociology.jmsu.me/methodology/sampling/3national_physician_sampling_frames/index.xml" title="Sociology J" />
+  <script defer src="/en.search.min.a86e7793c2d19b93a374db4a1858eeae9ea3fd0734e393db0231103dca645fe3.js" integrity="sha256-qG53k8LRm5OjdNtKGFjurp6j/Qc045PbAjEQPcpkX&#43;M=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="//localhost:1313/methodology/sampling/3national_physician_sampling_frames/index.xml" title="Sociology J" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -33,7 +34,7 @@ https://github.com/alex-shpak/hugo-book
         
   <nav>
 <h2 class="book-brand">
-  <a class="flex align-center" href="/"><span>Sociology J</span>
+  <a class="flex align-center" href="/"><img src="/booklogo.png" alt="Logo" /><span>Sociology J</span>
   </a>
 </h2>
 
@@ -56,10 +57,15 @@ https://github.com/alex-shpak/hugo-book
 
 
   <ul>
-<li><a href="/methodology/"><strong>사회조사방법</strong></a>
+<li><a href="/methodology/"><strong>Research methodology</strong></a>
 <ul>
-<li><a href="/methodology/non-response/">무응답</a></li>
-<li><a href="/methodology/sampling/">Sampling과정</a></li>
+<li><a href="/methodology/non-response/">Non-Response</a></li>
+<li><a href="/methodology/sampling/">Sampling Frame</a></li>
+</ul>
+</li>
+<li><a href="/classicalst/"><strong>classical sociology theories</strong></a>
+<ul>
+<li><a href="/classicalst/">Durkheim</a></li>
 </ul>
 </li>
 </ul>
@@ -121,6 +127,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </li>
     <li><a href="#결론">결론</a></li>
+    <li><a href="#comment-by-me">Comment By me</a></li>
   </ul>
 </nav>
 
@@ -157,12 +164,12 @@ https://github.com/alex-shpak/hugo-book
   배경
   <a class="anchor" href="#%eb%b0%b0%ea%b2%bd">#</a>
 </h2>
-<p>현존 Sampling frames의 다당성은 샘플 의사 조사의 대표성과 편차에 영향을 미친다.</p>
-<p>problem:</p>
+<p>현존 <strong>Sampling frames의 다당성</strong>은 샘플 의사 <strong>조사의 대표성</strong>과 편차에 영향을 미친다.</p>
+<p>Problems 가능 존재할 문제:</p>
 <ul>
-<li>도달범위 부족 (Under coverage) or</li>
-<li>Over coverage [퇴직 의사 포함됨..]</li>
-<li>오류 정보 Error information … 중복정보 Duplicate information …</li>
+<li>Under coverage (도달범위 부족)  or</li>
+<li>Over coverage (과도 포함) [퇴직 의사 포함됨..] or</li>
+<li>Error information (오류 정보) … 중복정보 Duplicate information …</li>
 </ul>
 <h3 id="기관-배경">
   기관 배경
@@ -170,15 +177,15 @@ https://github.com/alex-shpak/hugo-book
 </h3>
 <pre><code>NPPES:
 
-- 요금 청구서 계산 -&gt; 주소 Update 동기 있음
+- 요금 청구서 계산 -&gt; 주소 Update (User동기 있음) 
 
 CMS:
 
-- 주소 변경 요구 -&gt; 실행력 없음
+- 주소 변경 요구(User에게) -&gt; 실행력 없음(User동기 없음)
 
 AMA:
 
-- 기관은 의사 정보 Update노력 -&gt; 의사 자체 정보 갱신 의도(필요)없음
+- 기관은 의사 정보 Update노력 -&gt; 의사 자체(User 정보 갱신 의도(필요)없음)
 
 SK&amp;A:
 
@@ -249,7 +256,19 @@ NPPES &lt;--&gt; SK&amp;A : 91%
     - 포함 범위 제일 좋음
     - extra information 상대적 부족
         
-        - 다른 DB와 연합사용</code></pre>
+        - 다른 DB와 연합사용
+</code></pre>
+<h2 id="comment-by-me">
+  Comment By me
+  <a class="anchor" href="#comment-by-me">#</a>
+</h2>
+<blockquote class="book-hint info">
+  <p>Sampling의 과정뿐만 아니라 Sampling Frame의 특성도 고려해서 Sampling Frame(Database)갖고 있는 데이터의 편향 있는지? 데이터의 소스(Source)무엇인지?
+에 대한 연구는 사회조사에 큰 도움이 될 수 있다고 생각한다.</p>
+<p>Sample Frame의 데이터 특성 연구는 조사의 정확성을 제고하느라 조사 과정에 데이터 검증,오류인해 낭비된 시간도 많이 줄릴 수 있다.</p>
+
+</blockquote>
+
 </article>
  
       
@@ -303,6 +322,7 @@ NPPES &lt;--&gt; SK&amp;A : 91%
       </ul>
     </li>
     <li><a href="#결론">결론</a></li>
+    <li><a href="#comment-by-me">Comment By me</a></li>
   </ul>
 </nav>
 

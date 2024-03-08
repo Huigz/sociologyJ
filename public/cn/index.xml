@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcom SociologyJ on Sociology J</title>
+    <link>//localhost:1313/cn/</link>
+    <description>Recent content in Welcom SociologyJ on Sociology J</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 17 Jun 2023 15:10:09 +0900</lastBuildDate>
+    <atom:link href="//localhost:1313/cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3Blue1brown线性代数 笔记</title>
+      <link>//localhost:1313/cn/statistic/linear_algebra/</link>
+      <pubDate>Sat, 17 Jun 2023 15:10:09 +0900</pubDate>
+      <guid>//localhost:1313/cn/statistic/linear_algebra/</guid>
+      <description>3Blue1brown线性代数 笔记 # Previous Next &amp;nbsp; &amp;nbsp; / [pdf] View the PDF file here. Version Line # 1.0 [上传发布]</description>
+    </item>
+    <item>
+      <title>2023-01기초중급통계학 복습노트</title>
+      <link>//localhost:1313/cn/statistic/statistic_note_2023_01/</link>
+      <pubDate>Thu, 01 Jun 2023 15:10:09 +0900</pubDate>
+      <guid>//localhost:1313/cn/statistic/statistic_note_2023_01/</guid>
+      <description>기초중급통계학 노트 基础中级统计学 # Previous Next &amp;nbsp; &amp;nbsp; / [pdf] View the PDF file here. Version Line # 1.1 [增加] MSB/MSW 组间，组内均方的韩文翻译&#xA;1.0 [上传发布]</description>
+    </item>
+  </channel>
+</rss>
